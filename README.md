@@ -1,5 +1,7 @@
 # casual-game-ship-pipeline
 
+**Play the games built with this pipeline: [ai-sp.cn/games](https://www.ai-sp.cn/games/)** — a neon block puzzle taken from prototype to Google Play, App Store and Galaxy Store.
+
 A field-tested 10-stage pipeline for shipping casual HTML5 games to multiple stores. Packaged as an Agent Skill, installable in WorkBuddy, Claude Code and other compatible agents.
 
 The skill itself lives in [casual-game-ship-pipeline/](casual-game-ship-pipeline/) - look for `SKILL.md` there.
