@@ -1,0 +1,13 @@
+{
+  "//": "Platform config example. Copy to config/gp.json and config/samsung.json. Ad IDs MUST differ across apps.",
+  "store": "revenuecat",
+  "useTest": false,
+  "appId": {
+    "android": "ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYYYYYYYY"
+  },
+  "prod": {
+    "banner":       "ca-app-pub-XXXXXXXXXXXXXXXX/AAAAAAAAAA",
+    "interstitial": "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
+    "rewarded":     "ca-app-pub-XXXXXXXXXXXXXXXX/CCCCCCCCCC"
+  }
+}

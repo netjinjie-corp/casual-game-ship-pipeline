@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+  index.template.example.html — minimal example of the placeholder tokens that
+  scripts/build-index.mjs replaces. In a real project this file is the FULL game
+  shell (web-src/index.template.html); only the platform-specific values are
+  tokenized, all game/UI logic stays literal and shared.
+-->
+<html lang="en">
+<head><meta charset="utf-8"><title>Game</title></head>
+<body>
+<script>
+  // These tokens are replaced at build time by config/<platform>.json values.
+  const MONETIZATION = {
+    store: '__STORE__',
+    useTest: __USE_TEST__
+  };
+  const AD_CONFIG = {
+    appId: { android: '__APPID_ANDROID__' },
+    prod: {
+      banner:       '__AD_BANNER_ANDROID__',
+      interstitial: '__AD_INTERSTITIAL_ANDROID__',
+      rewarded:     '__AD_REWARDED_ANDROID__'
+    }
+  };
+  // All game logic here is identical across platforms — never tokenize it.
+</script>
+</body>
+</html>
